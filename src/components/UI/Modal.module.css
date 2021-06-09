@@ -10,7 +10,7 @@
 
 .modal {
   position: fixed;
-  top: 20vh;
+  top: 15vh;
   left: 5%;
   width: 90%;
   background-color: white;
@@ -37,4 +37,10 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.content {
+  max-height: 30rem;
+  overflow: auto;
+  padding: 0 1rem;
 }
